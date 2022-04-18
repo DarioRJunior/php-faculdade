@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    --main-bg: #E60012;
+    --white: #fff;
+    --blue: #00ADCD;
+    --hover: #9C3825;
+}
+
+li {
+    list-style: none;
+}
+
+
+#header img {
+    height: 100px;
+    margin-top: -20px;
+}
+
+#header {
+    box-sizing: border-box;
+    height: 100px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--main-bg);
+    flex-wrap: wrap;
+}
+
+.usuario {
+    color: var(--white);
+}
+
+
+.submenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+
+#menu a {
+    color: var(--white);
+    display: block;
+    padding: .5rem;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.submenu a {
+    background-color: var(--blue);
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.submenu a:hover {
+    background-color: var(--hover);
+}
+
+#criar-anuncio {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.anuncio-container h2 {
+    text-align: center;
+}
+
+.anuncio-box {
+    margin-top: 20px;
+    background-color: var(--blue);
+    color: var(--white);
+    width: 400px;
+    height: 500px;
+    padding: 40px;
+}
+
+.anuncio-box input {
+    display: flex;
+    padding: 10px;
+    width: 250px;
+    margin: 20px;
+}
+
+.anuncio-box label {
+    margin: 20px;
+}
+
+.anuncio-box input[type="submit"] {
+    background-color: var(--main-bg);
+    color: var(--white);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .3s;
+}
+.anuncio-box input[type="submit"]:hover {
+    cursor: pointer;
+    background-color: var(--hover);
+}
+
+/* FOOTER */
+
+#footer {
+    background-color: var(--main-bg);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 200px;
+}
+
+#footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-content img {
+    height: 120px;
+}
+
+#footer-content p {
+    color: white;
+}
+
+.footer-bottom {
+    background-color: var(--white);
+    position: absolute;
+    width: 100vw;
+    height: 20px;
+    bottom: 0;
+    text-align: center;
+}
+
+
+/* FIM FOOTER */

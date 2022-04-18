@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    --main-bg: #E60012;
+    --white: #fff;
+    --blue: #00ADCD;
+    --hover: #9C3825;
+}
+
+html {
+    background-color: var(--main-bg);
+    overflow-x: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+#header img {
+    height: 100px;
+    margin-left: 20px;
+}
+
+#header {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    align-items: center;
+}
+
+#menu {
+    margin: auto;
+    padding: 20px;
+}
+
+.submenu {
+    display: flex;
+    margin-right: 100px;
+}
+
+#menu a {
+    color: var(--white);
+    display: block;
+    padding: .5rem;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.submenu a {
+    background-color: var(--blue);
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+
+.submenu a:hover {
+    background-color: var(--hover);
+}
+
+.login {
+    align-items: center;
+    text-align: center;
+}
+
+.login-container {
+    width: 500px;
+    height: 430px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 30px;
+}
+
+.login h2 {
+    color: var(--blue);
+    text-transform: uppercase;
+}
+
+.box-login {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: auto;
+    text-align: left;
+}
+
+.box-login p {
+    margin-top: 15px;
+}
+
+.box-login input {
+    height: 30px;
+    padding: 5px;
+}
+
+#submit {
+    cursor: pointer;
+    margin-top: 15px;
+    height: 35px;
+    width: 180px;
+    border: none;
+    background-color: var(--blue);
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+#submit:hover {
+    background-color: #9C3825;
+}
+
+
+/* FOOTER */
+
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    height: 150px;
+}
+
+#footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-content img {
+    height: 120px;
+}
+
+#footer-content p {
+    color: #fff;
+}
+
+
+/* FIM FOOTER */
