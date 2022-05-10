@@ -1,0 +1,2 @@
+Dario|Ribeiro|25|dario@gmail.com|1234-5678
+Mayumi|Kusunoki|23|may@hotmail.com|4444-4444

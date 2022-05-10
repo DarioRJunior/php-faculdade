@@ -1,0 +1,28 @@
+Manipulando Arquivos txt
+
+fopen() - Abre o arquivo
+fwrite() - Escreve o arquivo
+fclose() - Fecha um arquivo
+@unlink() - apaga um link, se achar o arquivo ele apaga
+se não achar ele só ignora
+
+'r' - Abre o arquivo no formato somente para leitura
+e coloca o ponteiro no começo do arquivo
+
+'r+' - Abre o arquivo para leitura e gravação e coloca o 
+ponteiro no começo do arquivo.
+
+'w' - Abre o arquivo somente para gravação, coloca
+o ponteiro no começo do arquivo e apaga o conteúdo
+que já foi escrito. Se o arquivo não existir, tentar cria-lo
+
+'w+' - Abre o arquivo para leitura e escrita, coloca o 
+ponteiro no inicio do arquivo e apaga o conteúdo que já foi
+escrito. Se o arquivo não existir, tentar criá-lo.
+
+'a' - Abre o arquivo somente para escrita, coloca o ponteiro
+no fim do arquivo. Se o arquivo não existir, tentar criá-lo.
+
+'a+' - Abre o arquivo para leitura e gravação, coloca
+o ponteiro no fim do arquivo. Se o arquivo não existir,
+ tentar criá-lo.
