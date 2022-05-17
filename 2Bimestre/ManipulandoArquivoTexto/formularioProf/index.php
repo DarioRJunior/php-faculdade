@@ -20,7 +20,6 @@ sexo 29 - 30 -->.
 
 include('funcoes.php');
 
-
 if (@$_REQUEST['botao'] == "Salvar") {
 
     $handle = fopen("formularioProf.txt", 'a+');

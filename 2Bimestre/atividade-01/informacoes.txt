@@ -1,0 +1,3 @@
+Em duplas, mas individual
+Cada um desenvolve 1 cadastro (com no mínimo 6 colunas)
+Você deve passar um layout do txt
